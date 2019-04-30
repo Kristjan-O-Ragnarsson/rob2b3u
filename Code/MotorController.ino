@@ -29,7 +29,12 @@ void MotorController::MotorControllerLoop() {
 
 	// No intersections
 	if(camera.line.numIntersections == 0) {
-		int startX = camera.line.vectors->m_x0; // Get the start x of the first line
+		int startX = camera.line.vectors->m_x1; // Get the start x of the first line
+
+		if(DEBUG) {
+			Serial.print("Start X: ");
+			Serial.println(startX);
+		}
 
 		// If the start x is left of the center
 		if(startX < CAMERA_MIDDLE_X - CAMERA_DEADZONE) {
@@ -69,7 +74,7 @@ void MotorController::MotorControllerLoop() {
 	}
 
 	Serial.flush();
-	delay(50); // Let the camera process and return the lines
+	delay(20); // Let the camera process and return the lines
 }
 
 // Change the motor speed

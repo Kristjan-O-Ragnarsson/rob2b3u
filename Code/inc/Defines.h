@@ -17,7 +17,7 @@ bool running = false; // Is the robot driving?
 // Motors
 #define MIN_MOTOR_SPEED 60
 #define MAX_MOTOR_SPEED 255
-#define TURN_SPEED 80
+#define TURN_SPEED 70
 
 // Front right motor
 #define FR_ENABLE 2

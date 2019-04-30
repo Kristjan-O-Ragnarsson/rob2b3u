@@ -1,0 +1,2 @@
+# Verkefnalýsing
+Þetta er vélmenni sem var hannað fyrir Hönnunarkeppni Háskóla Íslands 2019. Vélmennið á að fara eftir braut og leysa þrautir á henni. Róbert Ingi hannaði vélmennið. Framtíðarstofa Tækniskólans, 42, var notuð mikið við smíðar hans. Arduino Mega 2560 er notað til að stjórna honum og Pixy 2 myndavél til að finna og elta línu. Mótorarnir koma frá Rev Robotics og L293D frá Texas Instruments er notað sem motor controller.

@@ -23,7 +23,7 @@ void Button::ButtonLoop() {
 
 	// If the DEBUG flag is set to true
 	if (DEBUG)
-		ButtonDebugInfo(false, false); // Write out debug info
+		ButtonDebugInfo(false, false, false); // Write out debug info
 }
 
 // Prints button debug info to the serial monitor

@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
 	btn.ButtonLoop(); // Check if the button was pressed
-	mc.MotorChangeSpeed(255);
+	mc.MotorChangeSpeed(150);
 
 	if(running) // Drive
 		mc.MotorControllerLoop();
