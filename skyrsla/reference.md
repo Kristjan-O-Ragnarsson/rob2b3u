@@ -1,3 +1,4 @@
 # Heimildaskrá
-Hér skal gera heimildaskrá þ.e þið skráið niður allar vefsíður sem þið notið til að afla ykkur upplýsinga
-til að leysa verkefnið. Textan fyrir ofan eyðið þið og setjið ykkar í staðin
+[Arduino](http://ardino.cc)
+[pixycam](https://pixycam.com/pixy-cmucam5/)
+[L293D Tutorial](https://learn.adafruit.com/adafruit-arduino-lesson-16-stepper-motors/overview)
