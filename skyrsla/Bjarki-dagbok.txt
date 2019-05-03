@@ -1,2 +1,10 @@
 11.1.2019
   Brainstorming, fundum parta, tengdum keypad.
+
+while(camera.not_working) {
+  debugging/testing
+}
+
+while(camera.fixed) {
+  more debugging/testing
+}
