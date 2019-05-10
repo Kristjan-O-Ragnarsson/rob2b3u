@@ -1,14 +1,17 @@
 # Flæðirit og sauðakóði
-Hér skal gera flæðirit og sauðakóða nýtið ykkur https://draw.io. Þegar þið hafið lokið að gera flæðiritið farið í export-image og vistið grafið í skyrsla/img meðnafni "flowhart". í Þessu skjali skuluð þið gera sauðakóða 
 
-Sauðakóða dæmi:
+Sauðakóði:
 ```
-loop forewer{
-  drive(until done)
-  ArmUp(30)
-  armDon(30)
-  clawOpen()
-}
- ```
+wait until button is pressed
+	start running
+		stop if the button is clicked
+	find the line
+		if the line is to the left
+			turn left
+		else if the line is to the right
+			turn right
+		else if the line is straight ahead
+			go straight
+```
 
-![Flæðirit](./img/flowchart.png)
+![Flæðirit](./img/VirkniKerfis.svg)
